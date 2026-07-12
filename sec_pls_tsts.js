@@ -264,7 +264,6 @@ function updateProgress(currentQuestionNum, totalQuestions) {
     } catch {
         nxtbttn.before(tstPrgrss)
     }
-    
 }
 
 // calculates overall score and displays it
