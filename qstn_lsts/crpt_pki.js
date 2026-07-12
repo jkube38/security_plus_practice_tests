@@ -1,4 +1,4 @@
-export default [
+export default `[
     {
       "id": "6-001",
       "type": "MCQ",
@@ -799,4 +799,4 @@ export default [
       "answer": "Certificate monitoring",
       "explanation": "Monitoring detects suspicious certificate activity."
     }
-]
+]`

@@ -1,4 +1,4 @@
-export default [
+export default `[
     {
       "id": "5-001",
       "type": "MCQ",
@@ -799,4 +799,4 @@ export default [
       "answer": "Performance monitoring risk assessment",
       "explanation": "Performance assessments evaluate risks from insufficient system monitoring."
     }
-]
+]`

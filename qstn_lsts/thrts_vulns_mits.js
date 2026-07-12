@@ -1,4 +1,4 @@
-export default [
+export default `[
     {
       "id": "2-001",
       "type": "MCQ",
@@ -799,4 +799,4 @@ export default [
       "answer": "Orchestration hijacking",
       "explanation": "Orchestration hijacking manipulates cloud automation and deployment workflows."
     }
-]
+]`

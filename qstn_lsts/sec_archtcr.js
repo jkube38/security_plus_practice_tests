@@ -1,4 +1,4 @@
-export default [
+export default `[
     {
       "id": "3-001",
       "type": "MCQ",
@@ -798,5 +798,5 @@ export default [
       "options": ["State controller", "Firewall", "Proxy", "Load balancer"],
       "answer": "State controller",
       "explanation": "State controllers manage workload state transitions securely."
-    },
-]
+    }
+]`

@@ -1,4 +1,4 @@
-export default [
+export default `[
     {
       "id": "8-001",
       "type": "MCQ",
@@ -799,4 +799,4 @@ export default [
       "answer": "Lifecycle protection",
       "explanation": "Lifecycle protection ensures security across the entire software lifecycle."
     }
-]
+]`

@@ -1,4 +1,4 @@
-export default [
+export default `[
      {
       "id": "4-001",
       "type": "MCQ",
@@ -798,6 +798,5 @@ export default [
       "options": ["Proxy analyst", "SOC analyst", "Threat hunter", "Auditor"],
       "answer": "Proxy analyst",
       "explanation": "Proxy analysts monitor proxy system activity."
-    },
-    
-]
+    }    
+]`

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sec+ Practice Tests</title>
+    <link rel="stylesheet" href="sec_pls_tsts.css">
+    <link rel="icon" type="image/x-icon" href="./images/hacker_logo_icon.png">
+</head>
+<body>
+    <div id="header">
+        <img id="hackerHeader" src="./images/hacker_logo.png">
+        <h2 id="hTitle">CompTIA Security+ SYO-701 Practice Tests</h2>
+    </div>
+    <div id="activeDisplay">
+        <div id="topicMenu">
+            <div id="topics">
+                <h2 class="topic">General Security Concepts</h2>
+                <h2 class="line">|</h2>
+                <h2 class="topic">Threats, Vulnerabilities & Mitigations</h2>
+                <h2 class="line">|</h2>
+                <h2 class="topic">Security Architecture</h2>
+                <h2 class="line">|</h2>
+                <h2 class="topic">Security Operations</h2>
+                <h2 class="line">|</h2>
+                <h2 class="topic">Risk Management</h2>
+                <h2 class="line">|</h2>
+                <h2 class="topic">Cryptography & PKI</h2>
+                <h2 class="line">|</h2>
+                <h2 class="topic">Governance, Risk & Compliance</h2>
+                <h2 class="line">|</h2>
+                <h2 class="topic">Secure Software Development</h2>
+            </div>
+        </div>
+        <div id="testArea">
+            <div id="currentTopicHolder">
+                <p id="currentTopic"></p>
+            </div>
+            <div id="crdScrHolder">
+                <div id="scoreHolder">
+                    <div id="scrttlHolder">
+                        <h3 id="scoreTitle">overall score</h3>
+                    </div>
+                    <div id="overallScoreHolder">
+                        <h3 id="overallScore">0/0</h3>
+                        <p id="overallPercentage">0%</p>
+                    </div>
+                </div>
+                <div id="questionCard"></div>
+                <div id="scoreDtlsHolder">
+                    <div id="scrDtlsTtlHolder">
+                        <h3 id="scoreDetailsTitle">score details</h3>
+                    </div>
+                    <div id="scoreDetailsHolder">
+                        <p id="initialHolder" class="scoreDetails">details will appear when topic changes</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cardOptions">
+                <h3 id="checkAnswer">check answer</h3>
+                <h3 id="nextQuestion">next question</h3>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+         <img id="hLogo2" src="./images/hacker_logo2.png" alt="a logo of a hacker in a hoodie inside an octagon">
+         <p id="flashCardLink">visit my 
+            <a href="https://secplusacronymflashcards.vercel.app/" target="'_blank" rel="noopener noreferrer">flashcard</a>
+             site to lock in the terminology and their function</p>
+         <p id="copyright">&copy; 2026 Jordan Kubista - xsnow36@gmail.com - All rights reservered.</p>
+    </div>
+
+    <!-- modal components -->
+    <div id="introModal">
+        <div id="modalContent">
+            <div id="closeHolder">
+                <h3 id="x">X</h3>
+            </div>
+            <img id="hackerModal" src="./images/hacker_logo.png">
+            <div id="textHolder">
+                <h3 id="welcomeText">Welcome to Security+ Practice Tests</h3>
+                <h3 id="disclaimerText">These practice test questions were AI generated based on the CompTIA SYO-701
+                    Security+ exam. The tests are split into 8 topics each containing 100 questions.<br>Good Luck</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Importing the js script-->
+    <script type="module" src="sec_pls_tsts.js"></script>
+</body>
+</html>

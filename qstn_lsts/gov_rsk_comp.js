@@ -1,4 +1,4 @@
-export default [
+export default `[
     {
       "id": "7-001",
       "type": "MCQ",
@@ -799,4 +799,4 @@ export default [
       "answer": "Vendor endpoint hardening compliance",
       "explanation": "Endpoint hardening compliance ensures vendors secure devices against threats."
     }
-]
+]`

@@ -1,4 +1,4 @@
-export default [
+export default `[
     {
       "id": "1-001",
       "type": "MCQ",
@@ -799,4 +799,4 @@ export default [
       "answer": "Risk acceptance",
       "explanation": "Risk acceptance acknowledges risk without further action."
     }
-]    
+]`
